@@ -1,7 +1,16 @@
-# Erion Mediu
+# Erion Mediu's Portfolio
+
+![Erion Mediu](link-to-your-photo)
 
 ## About Me
 I am deeply dedicated to ongoing learning and personal development. With a strong background in data science and finance, I bring a unique blend of analytical skills and strategic thinking to every endeavor. Passionate about leveraging data to drive business decisions and innovation.
+
+---
+
+## Contact Me
+- Email: [Erion.mediu7@gmail.com](mailto:Erion.mediu7@gmail.com)
+- LinkedIn: [Erion Mediu](https://www.linkedin.com/in/erion-mediu-ba865a17b/)
+- Phone: +31 0648736005
 
 ---
 
@@ -53,10 +62,3 @@ I am deeply dedicated to ongoing learning and personal development. With a stron
 - [Link to Project](your-project-link)
 
 (Continue adding projects in a similar format.)
-
----
-
-## Contact Me
-- Email: [Erion.mediu7@gmail.com](mailto:Erion.mediu7@gmail.com)
-- LinkedIn: [Erion Mediu](https://www.linkedin.com/in/erion-mediu-ba865a17b/)
-- Phone: +31 0648736005
