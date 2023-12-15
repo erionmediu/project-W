@@ -1,5 +1,37 @@
-body{
-    margin: 0;
-    background:red;
-    text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.about-me, .contact-me, .section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    animation: fadeIn 1s;
+}
+
+.profile-photo {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
