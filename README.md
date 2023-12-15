@@ -1,7 +1,3 @@
-# Erion Mediu's Portfolio
-
-![Erion Mediu](assets/engineer.JPG)
-
 ## About Me
 I am deeply dedicated to ongoing learning and personal development. With a strong background in data science and finance, I bring a unique blend of analytical skills and strategic thinking to every endeavor. Passionate about leveraging data to drive business decisions and innovation.
 
