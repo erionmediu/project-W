@@ -84,7 +84,7 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  color: #ffffff;
+  color: #000000;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -94,13 +94,13 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;  
-  height: 30vh;
+  height: 80vh;
 }
 .tm-home-title,
  .tm-home-subtitle {
   text-transform: none;
  }
-.tm-home-title { font-size: 60px; }
+.tm-home-title { font-size: 40px; }
 .tm-home-subtitle {
   color: #eb5424;
   font-weight: bold;
