@@ -101,6 +101,9 @@ hr {
   text-transform: none;
  }
 .tm-home-title { font-size: 40px; }
+.white-text {
+  color: #FFFFFF; /* This is the color white */
+}
 .tm-home-subtitle {
   color: #eb5424;
   font-weight: bold;
@@ -123,6 +126,8 @@ hr {
   background: #ffffff;
   color: #eb5424;
 }
+
+
 /* END HOME */
 
 /* START WORK */
