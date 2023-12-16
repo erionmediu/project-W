@@ -9,8 +9,8 @@ https://templatemo.com/tm-464-ultra-profile
 body {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  color: #606060;
+  font-size: 18px;
+  color: white;
   position: relative;
 }
 html, body {
@@ -25,7 +25,7 @@ hr {
   margin-bottom: 40px;
 }
 .title {
-  color: #303030;
+  color: #000000;
   font-size: 60px;
   padding-bottom: 40px;
   text-transform: uppercase;
