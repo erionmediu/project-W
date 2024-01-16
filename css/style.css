@@ -1,18 +1,5 @@
 
 /* ######################################## GENERAL START  ############################################## */
-.container23or {
-  min-height: 100%; /* Minimum height to cover the full viewport initially */
-  width: 100%;
-  background-image:conic-gradient(from 180deg, orange, orangered, orange);
-  background-size: cover;
-  background-attachment: fixed; /* Keep the background fixed during scroll */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 4%;
-  justify-content: flex;
-}
-
 
 /* Adjust the body and HTML to fill the screen */
 html, body {
@@ -20,7 +7,6 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-
 }
 
 /* Adjust the main section to fill remaining space */
@@ -53,23 +39,29 @@ main {
 /* start welcome animation ###################################################################*/
 
 body.welcome {
-  background: rgb(255, 255, 255);
-  min-height: 100%;
+  min-height: 0%;
   overflow: auto;
   -webkit-font-smoothing: antialiased;
+  min-height: 100%; /* Minimum height to cover the full viewport initially */
+  width: 100%;
+  transform: scale(0.67);
+  background-image:conic-gradient(from 180deg, orange, orangered, orange);
+  background-size: cover;
+  background-attachment: fixed; /* Keep the background fixed during scroll */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4%;
+  justify-content: flex;
 }
 
 .welcome .splash {
-  height: 0px;
-  padding: 0px;
   border: 130em solid #0e5c6f;
   position:fixed;
   left: 50%;
   top: 100%;
   display: block;
   box-sizing: initial;
-  overflow: auto;
-  z-index: 0;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards, hideSplash 2s 2.3s forwards, sendToBack 2s 2.3s forwards; 
