@@ -45,7 +45,7 @@ body.welcome {
   min-height: 100%; /* Minimum height to cover the full viewport initially */
   width: 100%;
   transform: scale(0.67);
-  background-image:conic-gradient(from 180deg, orange, orangered, orange);
+  color: red;
   background-size: cover;
   background-attachment: fixed; /* Keep the background fixed during scroll */
   display: flex;
