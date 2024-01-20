@@ -63,7 +63,7 @@ body.welcome {
   box-sizing: initial;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.2s linear forwards, hideSplash 2s 2.2s forwards, sendToBack 2s 2.2s forwards; 
+  animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.2s linear forwards, hideSplash 0.1s 2.4s forwards, sendToBack 0.1s 2.2s forwards; 
 }
 
 .welcome #welcome {
@@ -165,7 +165,6 @@ body.welcome {
 
 @keyframes hideSplash {
   to {
-    display: none;
     z-index: -1;
     border: none;
   }
