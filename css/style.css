@@ -3,10 +3,9 @@
 
 /* Adjust the body and HTML to fill the screen */
 html, body {
-  width: auto%;
+  width: auto;
   height: auto;
-  max-height: 100vh;
-  
+  max-height: 100vh; 
 }
 
 /* Adjust the main section to fill remaining space */
@@ -63,7 +62,7 @@ body.welcome {
   box-sizing: initial;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.2s linear forwards, hideSplash 0.1s 2.4s forwards, sendToBack 0.1s 2.2s forwards; 
+  animation: puff 0.1s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.2s linear forwards, hideSplash 0.1s 2.4s forwards, sendToBack 0.1s 2.2s forwards; 
 }
 
 .welcome #welcome {

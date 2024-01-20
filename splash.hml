@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen</title>
+    <link rel="stylesheet" href="style2.css">   
+</head>
+
+<body class="welcome">
+    <span id="splash-overlay" class="splash"></span>
+    <span id="welcome" class="z-depth-4"></span>
+
+    <script>
+        document.getElementById('welcome').addEventListener('animationend', function() {
+    window.location.href = 'index.html'; // Redirect to your main content page after animation
+    });
+    </script>
+
+</body>
+</html>
