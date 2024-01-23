@@ -320,13 +320,13 @@ main {
  
  .box .content h1 {
   font-size: 20px;
-  color: #fff;
+  color: PaleGoldenRod;
   margin-bottom: 5px;
  }
 
  .box .content ul {
   list-style-type: disc; /* Or another style you prefer */
-  color: #ffffff; /* Text color */
+  color: white; /* Text color */
   margin-top: 45px;
   margin-left: -110px;
 }
@@ -556,7 +556,7 @@ strong1 {
   font-size: 1.2em;
   line-height: 100%;
   text-align: center;
-  color: MintCream;
+  color: PaleGoldenRod;
   letter-spacing: .5px;
 }
 
