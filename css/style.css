@@ -5,13 +5,12 @@
 html, body {
   width: auto;
   height: auto;
-  max-height: 100vh; 
+  max-height: 150vh; 
 }
 
 /* Adjust the main section to fill remaining space */
 main {
   flex: 1 0 auto;
-  background: red;  /* Changed from #f5f5f5 for transparency */
 }
 
 
@@ -37,12 +36,11 @@ main {
 
 /* start welcome animation ###################################################################*/
 
-body.welcome {
-  min-height: 100%;
+body.container01{
   -webkit-font-smoothing: antialiased;
   width: auto;
   height:auto;
-  transform: scale(0.67);
+  transform: scale(0.9);
   background-image:conic-gradient(from 180deg, orange, orangered, orange);
   background-size: cover;
   background-attachment: fixed; /* Keep the background fixed during scroll */
@@ -52,20 +50,12 @@ body.welcome {
   justify-content: flex;
 }
 
-.welcome .splash {
+.animation-container {
   border: 130em solid #0e5c6f;
-  position:fixed;
-  left: 50%;
-  top: 100%;
-  max-height: auto;
-  display: block;
-  box-sizing: initial;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  animation: puff 0.1s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.2s linear forwards, hideSplash 0.1s 2.4s forwards, sendToBack 0.1s 2.2s forwards; 
+  animation: puff 0.1s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.2s linear forwards, hideSplash 2s 2.4s forwards, sendToBack 2s 2.2s forwards; 
 }
 
-.welcome #welcome {
+.animation-container #welcome {
   background: #eb5424;
   width: 56px;
   height: 56px;
@@ -77,12 +67,11 @@ body.welcome {
   border-radius: 50%;
   animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.2s cubic-bezier(0.86, 0, 0.07, 1) forwards, hide 1.6s 2s ease forwards;
 }
-   
+
+
 /* moveIn */
-.welcome header,
-.welcome main,
-.welcome footer {
-  opacity: 0;
+.welcome main {
+  opacity: 1;
   animation: moveIn 2s 3.1s ease forwards;
 }
 
@@ -156,7 +145,7 @@ body.welcome {
   0% {
     background: #eb5424;
   }
-  50% {
+  100% {
     background: #eb5424;
     top: 26px;
   }
@@ -181,10 +170,8 @@ body.welcome {
   }
   100% {
     opacity: 0;
-    
   }
-} 
-
+}
 
 /* ######################################## end welcome animation############################################## */
 
