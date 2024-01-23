@@ -560,6 +560,15 @@ strong1 {
   letter-spacing: .5px;
 }
 
+.custom-text2 {
+  font-size: 1.2em;
+  line-height: 100%;
+  text-align: center;
+  color: white;
+  letter-spacing: .5px;
+}
+
+
 /* ######################################## FONTS END ############################################## */
 
 .hidden-content {
