@@ -76,23 +76,6 @@
                 <div class="circle"></div>
             </div>
         </button>
-
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            var welcomeElement = document.getElementById('welcome');
-            welcomeElement.addEventListener('animationend', function(e) {
-                if (e.animationName === 'hide') {
-                    var content = document.querySelector('.hidden-content');
-                    if (content) {
-                        content.classList.add('active');
-                    }
-                }
-            });
-        });   
-    </script>
-    
-
     
 </body>
 </html>  
