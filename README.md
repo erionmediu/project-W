@@ -20,7 +20,7 @@ Clone the repository and open `index.html` in a web browser to view the website 
 ```bash
 git clone [repository-url]
 cd [repository-directory]
-
+```
 
 ## Connect with Me
 - **LinkedIn**: [Erion Mediu](https://www.linkedin.com/in/erion-mediu-ba865a17b/)
