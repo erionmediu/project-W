@@ -361,14 +361,15 @@ strong {
   overflow: hidden;
   height: 3rem;
   background-size: 300% 300%;
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(0rem);
   border-radius: 5rem;
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
-  border: double 4px transparent;
+  border: double 5px transparent;
   background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #ffdb3b 10%, #ff9b17d7 45%, #f9ff41 67%, #feb200d7 87%);
   background-origin: border-box;
   background-clip: content-box, border-box;
+  text-decoration: none;
 }
 
 #container-stars {
@@ -378,7 +379,7 @@ strong {
   height: 100%;
   overflow: hidden;
   transition: 0.5s;
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(0rem);
   border-radius: 5rem;
 }
 
@@ -571,14 +572,50 @@ strong1 {
 
 /* ######################################## FONTS END ############################################## */
 
-.hidden-content {
-    display: none;
+.Btn12 {
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .4s;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(31, 31, 31);
+  overflow: hidden;
 }
 
-/* After animation */
-.hidden-content.active {
-    display: flex; /* or 'grid' or 'block', depending on your layout */
-    flex-direction: column; /* adjust as needed for your layout */
-    align-items: center; /* adjust as needed for your layout */
+.svgIcon {
+  transition-duration: .3s;
 }
 
+.svgIcon path {
+  fill: white;
+}
+
+.text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: .4s;
+}
+
+.Btn12:hover {
+  width: 110px;
+  transition-duration: .4s;
+  border-radius: 30px;
+}
+
+.Btn12:hover .text {
+  opacity: 1;
+  transition-duration: .4s;
+}
+
+.Btn12:hover .svgIcon {
+  opacity: 0;
+  transition-duration: .3s;
+}
