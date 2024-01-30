@@ -585,6 +585,7 @@ strong1 {
   position: relative;
   background-color: rgb(31, 31, 31);
   overflow: hidden;
+  text-decoration: none;
 }
 
 .svgIcon {
