@@ -4,9 +4,7 @@ html, body {
   min-height: fit-content;
   max-height: 150vh; 
   margin-top: 0cm;
-  background-image:conic-gradient(from 180deg, orange, orangered, orange);
-  background-size: cover;
-  background-attachment: fixed; /* Keep the background fixed during scroll */
+  background-color: #0e5c6f;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,11 +20,6 @@ html, body {
 }
 
 
-
-.container01{
-  width: auto;
-  height: auto;
-}
 
 .animation-container {
   border: 130em solid #0e5c6f;
@@ -217,7 +210,7 @@ html, body {
  
  .box:before,
  .box:after {
-  background: linear-gradient(315deg, #ffbc00, #ff0058)
+  background: linear-gradient(315deg, #01ddff86, #ff005983)
  }
  
  .box span {
@@ -347,7 +340,7 @@ strong {
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
   border: double 5px transparent;
-  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #ffdb3b 10%, #ff9b17d7 45%, #f9ff41 67%, #feb200d7 87%);
+  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #ffdb3b 10%, #ff9b17d7 45%, #f9ff41 67%, #eb5424 87%);
   background-origin: border-box;
   background-clip: content-box, border-box;
   text-decoration: none;
