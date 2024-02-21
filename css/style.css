@@ -157,8 +157,7 @@ html, body {
   display: flex; /* Align children (boxes) horizontally */
   justify-content: center; /* Center boxes horizontally */
   width: 100%; /* Take up the full width of the container */ /* Space around the boxes */
-  padding-top: 80px;
-  margin-top: 20px;
+  padding-top: 70px;
   z-index: 1;
 }
 
@@ -330,7 +329,7 @@ strong {
   justify-content: center;
   align-items: center;
   width: 13rem;
-  margin-top: 100px;
+  margin-top: 65px;
   margin-bottom: 20px;
   overflow: hidden;
   height: 3rem;
