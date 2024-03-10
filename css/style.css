@@ -1,22 +1,11 @@
 html, body {
-  width: auto;
-  height: auto;
-  min-height: fit-content;
-  max-height: 150vh; 
-  margin-top: 0cm;
-  background-color: #0e5c6f;
+  height: auto; 
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-
-
-.templatemo-home {
-  display: flex;
-  align-items: flex-start;  /* Align content to the top */
-  text-align: center;
-  height: 100%; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #0e5c6f;
+  overflow-x: hidden;
 }
 
 
@@ -37,7 +26,7 @@ html, body {
   position: absolute;
   left: 50%;
   top: 110%;
-  overflow: fixed;
+  overflow: hidden;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   animation: init 0.5s 0.8s forwards,
@@ -171,22 +160,22 @@ html, body {
 .box-row {
   display: flex; /* Align children (boxes) horizontally */
   justify-content: center; /* Center boxes horizontally */
-  width: 100%; /* Take up the full width of the container */ /* Space around the boxes */
+  width: auto; /* Take up the full width of the container */ /* Space around the boxes */
   padding-top: 70px;
   z-index: 1;
 }
 
 .box {
   position: relative;
-  width: 430px;
+  width: 370px;
   height: 500px;
-  left: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.3s;
   z-index: 1;
-  margin: auto;
+  margin: 0 auto;
+
  }
  
  .box::before {
@@ -201,6 +190,7 @@ html, body {
   border-radius: 8px;
   transform: skewX(15deg);
   transition: 0.5s;
+  transform-origin: center;
  }
  
  .box::after {
@@ -215,6 +205,7 @@ html, body {
   transform: skewX(15deg);
   transition: 0.5s;
   filter: blur(30px);
+  transform-origin: center;
  }
  
  .box:hover:before,
@@ -288,13 +279,13 @@ html, body {
  
  .box .content {
   position: relative;
-  width: 280px;
+  width: 290px;
   height: 500px;
-  padding: 40px 40px;
+  padding: 20px 20px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 10px;
   z-index: 1;
   transform: 0.5s;
   color: #fff;
