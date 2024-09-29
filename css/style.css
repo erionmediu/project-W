@@ -959,18 +959,18 @@ a4 {
 /*#############################################################################################*/
 .lds-ellipsis {
   position: absolute;
-  top: 170px;   /* Adjust top distance */
-  right: 521px; /* Adjust right distance */
+  top: 165px;   /* Adjust top distance */
+  right: 560px; /* Adjust right distance */
   display: flex;
-  width: 70px;
-  height: 70px;
+  width: 30px;
+  height: 30px;
   z-index: 999; /* Ensure it's above other elements */
 }
 
 .lds-ellipsis div {
   position: absolute;
-  width: 13px;
-  height: 13px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   background: #fff;
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
