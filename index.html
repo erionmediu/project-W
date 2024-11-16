@@ -136,6 +136,46 @@
             window.onbeforeunload = function() {
                 window.scrollTo(0, 0);
             }
+        <script>
         </script>    
+        <script>
+  document.addEventListener('mousemove', (event) => {
+    const eyes = document.querySelectorAll('.eye-pupil');
+    const catRect = document.querySelector('.cat').getBoundingClientRect();
+
+    // Calculate the center of the cat's face
+    const faceCenterX = catRect.left + catRect.width / 2;
+    const faceCenterY = catRect.top + catRect.height / 2;
+
+    // Determine the angle between the mouse and the center of the cat's face
+    const angle = Math.atan2(event.clientY - faceCenterY, event.clientX - faceCenterX);
+
+    // Calculate the max offset for the pupils
+    const offset = 20; // Adjust this value to limit pupil movement
+
+    // Compute new pupil positions
+    const pupilX = Math.cos(angle) * offset;
+    const pupilY = Math.sin(angle) * offset;
+
+    // Apply the transformation to each pupil
+    eyes.forEach((eye) => {
+      eye.style.transition = "none"; // Disable smooth transition while mouse is moving
+      eye.style.transform = `translate(${pupilX}px, ${pupilY}px)`;
+    });
+  });
+
+  // Handle when the mouse leaves the viewport
+  window.addEventListener('mouseout', (event) => {
+    // Check if the mouse left the browser window (relatedTarget is null)
+    if (!event.relatedTarget || event.relatedTarget.nodeName === "HTML") {
+      const eyes = document.querySelectorAll('.eye-pupil');
+      eyes.forEach((eye) => {
+        eye.style.transition = "transform 0.8s ease"; // Smooth transition for centering
+        eye.style.transform = "translate(0, 0)"; // Center the pupils
+      });
+    }
+  });
+</script>
+       
 </body>
 </html>  
