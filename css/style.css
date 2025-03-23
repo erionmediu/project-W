@@ -894,15 +894,13 @@ a {
   color: white; /* Set the default color */
   text-decoration: line; /* Optional: Remove underline */
   line-height: 1.1; /* Adjust line height as needed (1.2, 1.3, 1.4) */
-  padding-left: 10px;
   font-size: 12px;
 }
 
 a:visited {
   color: rgb(255, 255, 255); /* Color for visited links */
-  text-decoration: none;
+  text-decoration: line;
   line-height: 1.3; /* Adjust line height as needed (1.2, 1.3, 1.4) */
-  padding-left: 10px;
   font-size: 12px;
 
 }
@@ -911,16 +909,14 @@ a:hover {
   color: rgb(0, 255, 153);
   text-decoration: none; 
   line-height: 1.3; /* Adjust line height as needed (1.2, 1.3, 1.4) */
-  padding-left: 10px;
   font-size: 12px;
 }
 
 a:active {
 
-  margin: 0; /* Reset default margins */
+  margin: 5; /* Reset default margins */
   padding: 0; /* Reset default padding */
   line-height: 1.3; /* Adjust line height as needed (1.2, 1.3, 1.4) */
-  padding-left: 10px;
   color: rgb(255, 255, 255);
   font-size: 12px;
 
@@ -959,8 +955,8 @@ a4 {
 /*#############################################################################################*/
 .lds-ellipsis {
   position: absolute;
-  top: 165px;   /* Adjust top distance */
-  right: 560px; /* Adjust right distance */
+  top: 205px;   /* Adjust top distance */
+  right: 570px; /* Adjust right distance */
   display: flex;
   width: 30px;
   height: 30px;
