@@ -955,7 +955,7 @@ a4 {
 /*#############################################################################################*/
 .lds-ellipsis {
   position: absolute;
-  top: 205px;   /* Adjust top distance */
+  top: 225px;   /* Adjust top distance */
   right: 570px; /* Adjust right distance */
   display: flex;
   width: 30px;
